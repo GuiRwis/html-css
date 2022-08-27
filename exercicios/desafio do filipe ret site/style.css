@@ -1,0 +1,37 @@
+@charset "UFT-8";
+body{
+   background-color: darkgrey
+}
+p{
+    font: size 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+h1{
+    
+    font-size:30px ;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+h2{
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    background-color:rgb(144, 142, 142);
+    color: white;
+    height: 300px;
+}
+
+.simples{
+    color: red;
+}
+.simples:hover{
+    color: greenyellow
+}

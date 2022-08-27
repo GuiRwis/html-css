@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            text-align: center;
+            right: 600px;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(110, 105, 105);
+            padding: 3px;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.398)
+            
+            
+           
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(216, 109, 109);
+            font-weight: bold;
+            margin: 30px;
+            
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;                    /*bordar redonda*/
+            box-shadow: 3px 6px 14px rgba(2, 2, 2, 0.587);        /*sombra*/
+            
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside{
+           background-color: rgb(101, 99, 99);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;                  /*texto centralizado*/
+            padding: 4px;                       /*acochoamento*/
+        }
+        footer > P{
+            margin: 0px;                       /*margem*/
+        }
+        header > h1{
+            box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.404);
+        }
+        div#bola{
+            height: 100px;                            /*altura*/
+            width: 100px;                             /*largura*/
+            margin: 10px;                            /*margem*/
+            border-radius: 50px;                    /*bordar redonda*/
+            background-color: white;              
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>esportes, politica e tecnologia</h1>
+
+        </section>
+        <section id="noticias">
+            <p>nada demais por aqui</p>
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt veritatis labore explicabo itaque eum. Doloremque amet, architecto at ut incidunt maxime voluptatibus corrupti nisi tempore ratione aut a accusantium!</p>
+                <aside>                   
+                    <p>artigo escrito por jose da silva pinto rocha</p>
+
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+           <p>desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

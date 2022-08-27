@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores personalizados</title>
+</head>
+<style>
+        /*  seletores personalizados
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = clildror
+        */
+    body{
+        background-color: darkgray;       
+    }
+    .especial{
+        color: rgb(9, 10, 10);  
+        
+    }
+    .especial:visited{
+        color: darkblue;
+    }
+    .especial:hover{
+        color: red;
+    }
+ 
+    .especial:active{
+        color: green;
+    }
+    #vermelho{
+        color: white;
+        background-color: rgb(123, 117, 117);
+     
+    }
+    #vermelho:hover{
+        color: red;
+        cursor: pointer;
+
+    }
+
+
+
+
+</style>
+<body>
+     <a href="https://www.facebook.com/guilherme.reis.79" target="_blank" class="especial">facebook</a>
+     <h1 id="vermelho">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sapiente temporibus sint pariatur impedit placeat modi explicabo. Quae ullam asperiores harum inventore minus, error recusandae rerum sequi excepturi fugit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ipsa, dicta architecto totam labore sint eligendi corporis molestiae adipisci quod molestias at tempora soluta officiis dolores, porro eius eveniet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem porro ut ex. Neque eligendi, modi inventore repellat unde aspernatur sint nostrum facere harum fugiat quos, blanditiis aut accusamus maxime!</h1>
+</body>
+</html>

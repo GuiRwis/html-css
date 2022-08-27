@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*  seletores personalizados
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = clildror
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(100, 49, 49);
+        }
+        a:hover{     /*quando eu passo o mouse por cima*/
+            text-decoration: underline;
+        }
+        .especial{
+            background-color: rgb(151, 48, 48);
+            color: white;
+        }
+        a:active{     /*cor ativa*/
+            color: blue;
+        }
+        .especial::before{
+            content:'➾';
+        }
+        .especial::after{
+           content:'➾';
+           
+        }
+ 
+        
+        
+    </style>
+
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/guilherme.reis.79/" class="especial">guilherme Reis</a> mande solicitação de amizade no facebook</li>
+        <li><a href="https://www.instagram.com/guilhermereis_nery/" target="_blank" rel="externa">@guilherme_reis</a> me siga no instagram</li>
+        <li><a href="https://twitter.com/GuiRwis">gui do mal</a> acesse meu twitter</li>
+    </ul>
+</body>
+</html>
