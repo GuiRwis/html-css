@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{                                                            /*configuração global*/
+    padding: 0px;
+    margin: 0px;
+}
+html body{
+    min-height: 100vh;                                   
+    background-color: darkgrey;
+}
+header{
+    background-color: black;                            /*cor de fundo da caixa*/
+    color: white;                                       /*cor da letra*/
+    text-align: center;                                   /*texto centralizado*/
+}
+header > h1{
+    padding: 50px;                                        /*acolchoamento de dentro*/
+    font-variant: small-caps;                             /*fonte mais bonita*/
+}
+header > p{
+    padding-bottom: 50px;                                 /*acolchoamento de dentro*/
+}
+a{
+    color: white;                                       /*cor*/
+    text-decoration: none;                                /*texto decoração nenhum */
+    font-weight: bold;                                    /*negrito*/
+}
+a:hover{
+    text-decoration: underline;                           /*decoração sublinhar*/
+}
+section{
+    padding-top: 10vh;                                     /*ganhar espaço e rolagem*/
+    padding-bottom: 10vh;                                  /*ganhar espaço e rolagem*/
+    line-height: 2em;                                       /*espaço duplo entre as frases*/
+    padding-left: 30px;                                     /*acolchoamento esquerda 30px*/
+}
+section.normal{
+    background-color: white;                             /*fundo branco*/
+    color: black;                                        /*cor preta*/
+}
+section.imagem{
+    background-color: rgb(108, 104, 104);                 /*fundo branco*/
+    color: white;                                         /*color branca*/
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+
+}
+
+footer{
+    background-color: black;                              
+    color: white;
+    text-align: center;
+    padding:10px
+}
