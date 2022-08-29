@@ -1,12 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?família=Paixão+Um:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?família=Sriracha&display=swap');
+
+
+:root{
+   --font1:Verdana, Geneva, Tahoma, sans-serif;
+   --font2:'Passion One';
+   --font3:'Sriracha';
+}
+
 *{                                                            /*configuração global*/
     padding: 0px;
     margin: 0px;
+    
+    
 }
 html body{
     min-height: 100vh;                                   
     background-color: darkgrey;
+    font-family: var(--font1);
 }
 header{
     background-color: black;                            /*cor de fundo da caixa*/
@@ -15,7 +29,9 @@ header{
 }
 header > h1{
     padding: 50px;                                        /*acolchoamento de dentro*/
-    font-variant: small-caps;                             /*fonte mais bonita*/
+    font-variant: small-caps;  
+    font-family: var(--font2);  
+    font-size: 10vh;                         /*fonte mais bonita*/
 }
 header > p{
     padding-bottom: 50px;                                 /*acolchoamento de dentro*/
@@ -32,7 +48,8 @@ section{
     padding-top: 10vh;                                     /*ganhar espaço e rolagem*/
     padding-bottom: 10vh;                                  /*ganhar espaço e rolagem*/
     line-height: 2em;                                       /*espaço duplo entre as frases*/
-    padding-left: 30px;                                     /*acolchoamento esquerda 30px*/
+    padding-left: 30px; 
+    font-size: 3.5vh;                                    /*acolchoamento esquerda 30px*/
 }
 section.normal{
     background-color: white;                             /*fundo branco*/
@@ -43,6 +60,8 @@ section.imagem{
     color: white;                                         /*color branca*/
 }
 section.imagem > p{
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.37);
     color: white;
 
