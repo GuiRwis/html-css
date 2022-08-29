@@ -50,20 +50,35 @@ section{
     padding-left: 30px; 
     font-size: 3.5vh;                                    /*acolchoamento esquerda 30px*/
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;                             /*fundo branco*/
     color: black;                                        /*cor preta*/
 }
 section.imagem{
-    background-color: rgb(108, 104, 104);                 /*fundo branco*/
+    background-color: rgba(108, 104, 104, 0.478);                 /*fundo branco*/
     color: white;                                         /*color branca*/
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.244);
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
 
+}
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
 }
 
 footer{
