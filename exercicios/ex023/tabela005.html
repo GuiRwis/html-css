@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .vermelho{
+            background-color: red;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+        .verde{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicios de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="gray" span="2">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="verde">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>desempregado</td>
+        </tr>
+        <tr>
+            <td>gessica</td>
+            <td>F</td>
+            <td>17</td>
+            <td>estagio</td>
+        </tr>
+        <tr>
+            <td>guilherme</td>
+            <td>M</td>
+            <td>20</td>
+            <td>programador</td>
+
+        </tr>
+        <tr>
+            <td>yan</td>
+            <td>M</td>
+            <td>22</td>
+            <td>sorveteiro</td>
+        </tr>
+        <tr>
+            <td>joao</td>
+            <td>M</td>
+            <td>22</td>
+            <td>bombeiro</td>
+        </tr>
+        
+       
+    </table>
+</body>
+</html>
